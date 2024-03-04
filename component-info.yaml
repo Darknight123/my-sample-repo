@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-new-comp"
+  annotations:
+    github.com/project-slug: sagar0419/aws-ec2 
+    backstage.io/techdocs-ref: dir:.
+  title: 'Component creation and CICD' 
+  description: An example of a Component Creation and CICD.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
